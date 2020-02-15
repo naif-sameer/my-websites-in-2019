@@ -1,0 +1,229 @@
+/* The Rule of page*/
+* , *:before ,*:after{box-sizing: border-box}
+
+body{ font-family: "Segoe UI Symbol"}
+
+.container{max-width:1170px;margin:0 auto}
+
+/* the Body*/
+header{background:url(../images/moon.jpg);background-size:cover;color:#000}
+
+.header{color: #fff;text-align: center;padding: 200px 0}
+
+.header h1{
+    color: #fff;
+    border-top: 4px solid #0fd92eb5;
+    border-bottom: 4px solid #0fd92eb5;
+    width: 444px;
+    border-radius: 13px;
+    padding: 14px 0;
+    margin: 0px auto 39px
+}
+.header a{
+    border: 2px solid #0fd92eb5;
+    padding: 11px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{background: #0b0b0b}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 15px 0;
+}
+.navbar h2{margin: 0;text-transform: uppercase}
+
+.navbar h2 span{color: #0fd92eb5}
+
+.navbar nav{width: 47%}
+
+.navbar nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 31.9px;
+}
+.navbar nav ul a{color: inherit;text-decoration: none;padding: 10px;transition: 0.6s}
+
+.navbar nav a:hover{color:green}
+
+/* the main*/
+.features .container{display: flex;}
+
+.features .container > div{height: 250px;padding: 35px 30px 0 0;}
+
+.about-me {background: #ddd;}
+
+.about-me .container{display: flex;justify-content: space-between;flex-wrap: wrap;}
+
+.about-me .container > .image {flex-basis: 45%;}
+
+.about-me .container > .image img{width:100%;height:100%}
+
+.about-me .container > .about{flex-basis: 55%;padding: 6px 4px 10px 40px;}
+
+.about-me .container > div > h2{margin: 0;}
+
+.about-me .container > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 0 0;
+    justify-content: space-between;
+}
+.about-me .container > div > div > div{flex-basis: 50%}
+
+.about-me .container > div > div h2{margin: 0}
+
+.about-me .container > div > div img{width: 32px;margin: -6px auto}
+
+.my-skills .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.my-skills .container > div{flex-basis: 46%}
+
+.my-skills .container button{
+    background: none;
+    padding: 12px 38px;
+    border-radius: 15px;
+    border-color: #0e9d24;
+    color: #00ff27;
+    margin: 20px 0 0;
+}
+.my-skills .container div:nth-child(1) p{margin: 32px 0}
+
+.skills p{height: 24px;width: 300px;background: #eee}
+
+.skills p span{
+    height: 100%;
+    display: inline-block;
+    background: green;
+    text-align: right;
+    padding: 0 8px;
+}
+.skills p:nth-of-type(1) span{width: 70%}
+
+.skills p:nth-of-type(2) span{width: 50%}
+
+.skills p:nth-of-type(3) span{width: 60%}
+
+.skills p:nth-of-type(4) span{width: 40%}
+
+.resume{text-align: center;padding: 50px 271px;background: #eee}
+
+.resume .container span{
+    border-width:19px;
+    border-style: solid;
+    border-color: #eee transparent transparent transparent;
+    position:relative;
+    top:106px;
+    left:-129px;
+    display: inline-block;
+}
+
+.resume h1{margin-top: 0}
+
+.resume p{line-height: 30px;color: #777;}
+
+.resume button{
+    padding: 11px 30px;
+    color: #01ff01;
+    border: 2px solid #008000;
+    background: none;
+    margin: 22px auto 2px
+}
+
+.my-education{padding: 48px}
+
+.my-education .container{display: flex;flex-wrap: wrap;justify-content: space-between}
+
+.my-education .container div{flex-basis:45%}
+
+.my-education h3 ,
+.my-education h2{margin-top:0}
+
+.testmonials{
+    text-align: center;
+    padding: 40px 321px;
+    line-height: 30px;
+    background: #eee;
+}
+.testmonials p{margin-top: 0}
+
+.testmonials h3{font-size: 18px;margin-bottom: 3px}
+
+.testmonials ul{
+    list-style:none;
+    text-align:center;
+    padding-left: 0;
+    margin: 0;
+}
+
+.testmonials ul li{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    border:2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.testmonials ul li:hover{background:r}
+
+.testmonials ul .activ{background:red}
+
+.portfolio{text-align: center;padding-top: 32px;color: #666}
+
+.portfolio p{padding: 10px 156px;line-height: 30px}
+
+.portfolio-img{display: flex;flex-wrap: wrap;padding-bottom: 85px}
+
+.portfolio-img img{flex-basis: 30%;margin: 14px;height: 229px;max-width: 351px}
+
+.contact-me{background: #243233;padding: 60px 0 80px;color: #fff}
+
+.contact-me .container {display: flex;flex-wrap: wrap}
+
+.contact-me .container > div {flex-basis: 40%}
+
+.contact-me .container > div p{width: 493px;line-height: 29px;color: #999}
+
+.contact-me .container > div p span{color: #fff}
+
+.contact-me .container > form{text-align: left;flex-basis: 0%;margin: 0 40px}
+
+.contact-me .container > form label,input ,textarea{display:block;width: 400px;margin: 21px 0px 20px}
+
+.contact-me .container > form input,textarea{
+    height: 36px;
+    background: #465455;
+    border: none;
+    color: #fff;
+    padding-left: 13px;
+}
+
+.contact-me textarea{max-width: 400px;height: 190px;max-height: 190px}
+
+.contact-me button{padding: 9px 25px;background: #232323;color: #fff;border: 3px solid #232323}
+
+/* footer*/
+footer{text-align: center;background: #232323;padding: 30px;color: #fff}
+
+footer p{margin-top: 0;margin-bottom: 4px}
+
+footer img{width: 30px}
+
+/* The Rule */
+.header a,
+.my-skills button,
+.resume button{transition: 0.4s}
+
+.header a:hover,
+.my-skills button:hover,
+.resume button:hover{background:#000;border:none;color:#fff;border:2px solid #000}
