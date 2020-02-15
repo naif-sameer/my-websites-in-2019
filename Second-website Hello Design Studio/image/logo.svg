@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="22" viewBox="0 0 61 22">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+        font-family: ArialRoundedMTBold, Arial Rounded MT;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect width="61" height="22"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <g id="Group_1" data-name="Group 1">
+      <g id="Path_3" data-name="Path 3" class="cls-2" transform="translate(38 4)">
+        <path class="cls-5" d="M0,0H21.292V14H0Z"/>
+        <path class="cls-6" d="M 1 1 L 1 13 L 20.29199981689453 13 L 20.29199981689453 1 L 1 1 M 0 0 L 21.29199981689453 0 L 21.29199981689453 14 L 0 14 L 0 0 Z"/>
+      </g>
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M10.646,0,21.292,14H0Z" transform="translate(38 4)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-3" d="M10.646,0,21.292,14H0Z" transform="translate(59.292 18) rotate(180)"/>
+      <text id="hello" class="cls-4" transform="translate(2 16)"><tspan x="0" y="0">hello</tspan></text>
+    </g>
+  </g>
+</svg>

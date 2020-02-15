@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_1);
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 0.4px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="44" height="44"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_1">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" class="cls-1">
+    <g id="tv" class="cls-2" transform="translate(8 8)">
+      <path id="_1--desktop_1" data-name="1--desktop_1" class="cls-3" d="M37.52,0H3.411A3.644,3.644,0,0,0,0,3.837V29.419a3.644,3.644,0,0,0,3.411,3.837H17.055l-1.137,3.837H10.8a1.932,1.932,0,0,0,0,3.837H30.129a1.932,1.932,0,0,0,0-3.837H25.013l-1.137-3.837H37.52a3.644,3.644,0,0,0,3.411-3.837V3.837A3.644,3.644,0,0,0,37.52,0ZM36.383,28.14H4.547V5.116H36.383Z" transform="translate(2.046 2.047)"/>
+    </g>
+  </g>
+</svg>
