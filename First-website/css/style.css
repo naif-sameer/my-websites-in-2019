@@ -1,0 +1,187 @@
+
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+.container{
+    text-align: center;
+    max-width:1170px;
+    margin:0 auto;
+}
+header{
+    background-color:#1976d2;
+}
+.logo{
+    margin:0 0px 0 41px;
+    display: inline-block;
+    padding: 0;
+    width:19%;
+    text-align: left;
+    font-size:35px;
+    color:#fff;
+}
+header nav{
+    display:inline-block;
+    text-align:right;
+    width:70%;
+}
+header nav ul{
+    padding:0;
+    margin:28px 10px;
+   
+}
+header nav ul li{
+    display:inline-block;
+    margin:0;
+
+}
+header nav ul li a{
+    color:#fff;
+    padding:15px 20px;
+}
+header nav ul li a:hover{
+    background:black;
+    color:#fff;
+    border-radius:15px
+}
+section{
+    padding: 34px 34px;
+    background: #2196f3;
+    color: #fff;
+    margin: 0;
+}
+.box-app{
+    display:inline-block;
+    width: 80%;
+    text-align: left;
+}
+.box-app h2{
+    margin:0;
+    font-size: 31px;
+}
+.box-app h1{
+	font-size: 2.5em;
+	margin: 20px 0;
+}
+.box-app p{
+	width: 80%;
+	word-spacing: 6px;
+	line-height: 21px;
+}
+.btn-down {
+ display: inline-block;
+ padding: 15px 32px;
+ border: 2px solid;
+ border-radius: 12px;
+ color: #fff;
+}
+.btn-down:hover{
+    background:black;
+    color:#fff;
+}
+#about-us{
+    width:auto;
+    border-bottom:2px solid;
+    background: #bbdefb;
+}
+#about-us h2{
+    margin:0;
+    padding:23px
+}
+.team{
+	display: inline-block;
+	width: 30.3%;
+	margin: 18px 4px;
+}
+.team img{
+	width: 68px;
+	border: 1px solid red;
+    border-radius: 34px;
+    margin: -21px auto;
+}
+.team h3{
+	display: inline-block;
+	margin: 8px 0;
+}
+.team p{
+    margin: 10px;
+    line-height:27px
+}
+#contact-us{
+	padding: 26px;
+	background: #2196f3;
+	color: #fff;
+}
+#contact-us h2{
+    margin:0;
+}
+#contact-us input{
+    display: block;
+    padding: 8px 54px 8px 8px;
+    border-radius: 10px;
+    margin: 17px auto;
+}
+#contact-us textarea{
+    width:185px;
+    padding: 10px 45px 50px 14px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+#contact-us button{
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #2196f3;
+    color:#fff;
+}
+#contact-us button:hover{
+    background:black;
+    color:#fff;
+}
+footer {
+    background:#1976d2;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+    padding: 26px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
